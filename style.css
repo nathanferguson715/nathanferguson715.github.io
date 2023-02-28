@@ -147,8 +147,8 @@ div.buylist {
 
 #logo {	
     position: absolute;
-    left: 2200px;
-    top: 180px;
+    left: 2100px;
+    top: 280px;
     width: 10%;
     border-radius: 25px;
     animation: scale-up-center 2.5s cubic-bezier(0.390, 0.575, 0.565, 1.000) alternate infinite;
