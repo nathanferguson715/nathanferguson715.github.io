@@ -148,14 +148,10 @@ div.buylist {
 #logo {	
     position: absolute;
     left: 2100px;
-    top: 280px;
+    top: 300px;
     width: 10%;
     border-radius: 25px;
     animation: scale-up-center 2.5s cubic-bezier(0.390, 0.575, 0.565, 1.000) alternate infinite;
-}
-
-#logo:hover {
-    animation: scale-up-center 0.4s cubic-bezier(0.390, 0.575, 0.565, 1.000) both;
 }
 
 /* animations down here */
