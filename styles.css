@@ -1,0 +1,53 @@
+body {
+    font-family: FreeMono, monospace;
+}
+
+h1 {
+    color: rgb(76, 162, 73);
+    display: block;
+}
+
+footer {
+    color: rgb(76, 162, 73);
+    text-allign: center;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: -15;
+    border-radius: 12px;
+    overflow: hidden;
+    background-color: rgb(90, 83, 83);
+}
+
+li {
+    float: left;
+}
+
+li a {
+    display: block;
+    color: white;
+    text-allign: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+li a:hover {
+    border-radius: 12px;
+    background-color: rgb(44, 42, 42);
+}
+
+button {
+    padding: -15;
+    border-radius: 12px;
+    border-color: rgb(52, 161, 54);
+    background-color: rgb(255, 255, 255);
+}
+
+button:hover {
+    padding: -15;
+    border-radius: 12px;
+    border-color: rgb(52, 161, 54);
+    background-color: rgb(90, 83, 83);
+}
