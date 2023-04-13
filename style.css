@@ -12,7 +12,7 @@ ul.navbar {
     list-style-type: none;
     margin: 0;
     overflow: hidden;
-    background-color:  rgb(80, 118, 125);
+    background-color: rgb(75, 92, 94);
     position: sticky;
     top: 0;
 }
@@ -26,19 +26,19 @@ ul.navbar li a {
     color: rgb(255, 255, 255);
     display: block;
     padding: 10px;
-    background-color: rgb(80, 118, 125);
+    background-color: rgb(75, 92, 94);
 }
 
 ul.navbar li a:hover {
     color: rgb(255, 255, 255);
     font-weight: bold;
-    background-color: rgb(101, 163, 174); 
+    background-color: rgb(89, 111, 112); 
 }
 
 /* general html element */
 
 body {
-    background-color: rgb(142, 187, 195);
+    background-color: rgb(150, 176, 180);
 }
 
 
@@ -65,7 +65,7 @@ footer {
     display: grid;
     grid-template-columns: auto auto auto;
     padding: 10px;
-    background-color:  rgb(179, 222, 230); 
+    background-color: rgb(165, 200, 203);
     border-radius: 8px;
 }
 
@@ -95,12 +95,12 @@ footer {
 .tradhistory_item {
     padding: 20px;
     font-size: 30px;
-    text-align: center;
+    text-align: left;
     font-size: 35;
 }
 
 .tradhistory_item2 {
-    background-color:  rgb(179, 222, 230); 
+    background-color: rgb(165, 200, 203);
     padding: 20px;
     text-align: center;
     border-radius: 8px;
@@ -119,7 +119,7 @@ footer {
 .tradpro_container {
     display: grid;
     grid-template-columns: auto auto auto;
-    background-color:  rgb(179, 222, 230); 
+    background-color: rgb(165, 200, 203);
     border-radius: 8px;
 }
 
@@ -148,12 +148,12 @@ footer {
 .sporthistory_item {
     padding: 20px;
     font-size: 30px;
-    text-align: center;
+    text-align: left;
     font-size: 35;
 }
 
 .sporthistory_item2 {
-    background-color:  rgb(179, 222, 230); 
+    background-color: rgb(165, 200, 203);
     padding: 20px;
     text-align: center;
     border-radius: 8px;
@@ -164,7 +164,7 @@ footer {
 .sport_container {
     display: grid;
     grid-template-columns: auto auto auto;
-    background-color:  rgb(179, 222, 230); 
+    background-color: rgb(165, 200, 203);
     border-radius: 8px;
 }
 
@@ -184,16 +184,16 @@ footer {
 }
 
 /* bouldering history section */
-.boulder_container {
+.boulderhistory_container {
     display: grid;
     grid-template-columns: auto auto auto;
     padding: 10px; 
     border-radius: 8px;
 }
 
-.boulder_item {
+.boulderhistory_item {
     padding: 20px;
-    font-size: 30px;
-    text-align: center;
+    font-size: 30px;    
+    text-align: left;
     font-size: 35;
 }
