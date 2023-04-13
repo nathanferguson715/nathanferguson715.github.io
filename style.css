@@ -1,20 +1,18 @@
 /* global elements */
 
 * {
-    font-family: 'Gloria Hallelujah', cursive;
+    font-family: 'Josefin Sans', sans-serif;
 }
 
-/* these are the changes for the navbar element */
+/* navbar element */
 
 ul.navbar {
-    border-radius: 25px;
-    font-size: 35; 
+    border-radius: 10px;
+    font-size: 40; 
     list-style-type: none;
     margin: 0;
-    padding: 0;
     overflow: hidden;
-    background-color: rgb(94, 114, 78);
-    border: 10px solid rgb(79, 98, 63);
+    background-color:  rgb(80, 118, 125);
     position: sticky;
     top: 0;
 }
@@ -27,25 +25,25 @@ ul.navbar li {
 ul.navbar li a {
     color: rgb(255, 255, 255);
     display: block;
-    padding: 8px;
-    background-color: rgb(94, 114, 78);
+    padding: 10px;
+    background-color: rgb(80, 118, 125);
 }
 
 ul.navbar li a:hover {
     color: rgb(255, 255, 255);
     font-weight: bold;
-    background-color: rgb(106, 130, 85);   
+    background-color: rgb(101, 163, 174); 
 }
 
-/* general html element changes */
+/* general html element */
 
 body {
-    background-color: rgb(135, 165, 135);
+    background-color: rgb(142, 187, 195);
 }
 
-header {
-    font-size: 40;
-    font-weight: bolder;
+
+h1 {
+    font-size: 50;
 }
 
 footer {
@@ -53,127 +51,149 @@ footer {
     font-weight: bold;
     color: rgb(255, 255, 255);
 }
-
-p {
-    font size: 35;
-}
-
-h1 {
-    font-size: 45;
-    font-weight: bolder;
-}
-
-h2 {
-    font-size: 35;
-    font-weight: bolder;
-}
-
-/* for sale and buylist div element changes */
-
-div.welcome {
-    border-radius: 25px;
-    background-color: rgb(164, 189, 160);
-    border: 10px solid rgb(195, 213, 193);
-    font-size: 45;
-    width: fit-content;
-    padding: 20px;
-    margin: 5px;
-}
-
-div.about {
-    font-size: 35;
-}
-
-div.forsale {
-    display: inline-block;
-    width: 1500;
-    font-size: 25;
-    border-radius: 25px;
-    padding: 20px;
-    margin: 5px;
-    background-color: rgb(179, 90, 90);
-    border: 10px solid rgb(0, 0, 0);
-
-}
-
-.forsaleitem {
-    display: inline-block;
-    font-size: 25;
-    border-radius: 25px;
-    width: fit-content;
-    padding: 20px;
-    margin: 5px;
-    background-color: rgb(189, 82, 82);
-    border: 5px solid rgb(140, 52, 52);
-}
-
-div.buylist {
-    display: inline-block;
-    width: 1500;
-    font-size: 25;
-    border-radius: 25px;
-    padding: 20px;
-    margin: 5px;
-    background-color: rgb(104, 169, 112);
-    border: 10px solid rgb(0, 0, 0);
-}
-
-.buylistitem {
-    display: inline-block;
-    font-size: 25;
-    border-radius: 25px;
-    width: fit-content;
-    padding: 20px;
-    margin: 5px;
-    background-color: rgb(110, 168, 87);
-    border: 5px solid rgb(66, 122, 43);
-}
-
-.itemimg {
-    height: 200px;
-    width: 200px;
-    border-radius: 25px;
-}
-
-#saletag {
-    position: absolute;
-    scale: 45%;
-    top: 820px;
-    left: 1035px;
-    width: 200px;
-    height: 200px;
-    animation: pulse 0.5s ease-in-out infinite both;
-}
-
-#logo {	
-    position: absolute;
-    left: 2100px;
-    top: 280px;
-    width: 10%;
-    border-radius: 25px;
-    animation: scale-up-center 2.5s cubic-bezier(0.390, 0.575, 0.565, 1.000) alternate infinite;
-}
-
-/* animations down here */
-
-@keyframes scale-up-center {
-    0% {
-      transform: scale(1);
-    }
-    100% {
-      transform: scale(1.4);
-    }
-}
-
-@keyframes pulse {
-    0% {
-      transform: scale(1);
-    }
-    50% {
-      transform: scale(1.1);
-    }
-    100% {
-      transform: scale(1);
-    }
-}
   
+
+/* index history section */
+  
+.historytext {
+    font-size: 35px;
+}
+
+/* index overview section */
+
+.overview_container {
+    display: grid;
+    grid-template-columns: auto auto auto;
+    padding: 10px;
+    background-color:  rgb(179, 222, 230); 
+    border-radius: 8px;
+}
+
+.overview_item {
+    padding: 20px;
+    font-size: 30px;
+    text-align: center;
+}
+
+.overview_img {
+    height: 100%;
+    width: 100%;    
+    overflow: hidden;
+    border-radius: 8px;
+}
+
+
+/* trad climbing history section */
+
+.tradhistory_container {
+    display: grid;
+    grid-template-columns: auto auto auto;
+    padding: 10px; 
+    border-radius: 8px;
+}
+
+.tradhistory_item {
+    padding: 20px;
+    font-size: 30px;
+    text-align: center;
+    font-size: 35;
+}
+
+.tradhistory_item2 {
+    background-color:  rgb(179, 222, 230); 
+    padding: 20px;
+    text-align: center;
+    border-radius: 8px;
+
+}
+
+
+.tradhistory_img {
+    height: auto;
+    width: 50%;    
+    border-radius: 8px;
+}
+
+/* trad protection section */
+
+.tradpro_container {
+    display: grid;
+    grid-template-columns: auto auto auto;
+    background-color:  rgb(179, 222, 230); 
+    border-radius: 8px;
+}
+
+.tradpro_item {
+    padding: 20px;
+    font-size: 30px;
+    text-align: center;
+    font-size: 35;
+}
+
+.tradpro_img {
+    height: auto;
+    width: 50%;    
+    border-radius: 8px;
+}
+
+/* sport climbing history section */
+
+.sporthistory_container {
+    display: grid;
+    grid-template-columns: auto auto auto;
+    padding: 10px; 
+    border-radius: 8px;
+}
+
+.sporthistory_item {
+    padding: 20px;
+    font-size: 30px;
+    text-align: center;
+    font-size: 35;
+}
+
+.sporthistory_item2 {
+    background-color:  rgb(179, 222, 230); 
+    padding: 20px;
+    text-align: center;
+    border-radius: 8px;
+}
+
+
+/* sport climbing gear section */
+.sport_container {
+    display: grid;
+    grid-template-columns: auto auto auto;
+    background-color:  rgb(179, 222, 230); 
+    border-radius: 8px;
+}
+
+.sport_item {
+    padding: 20px;
+    font-size: 30px;
+    text-align: left;
+    font-size: 35;
+}
+
+.sport_img {
+    height: auto;
+    width: 50%; 
+    display: block;
+    margin-left: auto;
+    border-radius: 8px;
+}
+
+/* bouldering history section */
+.boulder_container {
+    display: grid;
+    grid-template-columns: auto auto auto;
+    padding: 10px; 
+    border-radius: 8px;
+}
+
+.boulder_item {
+    padding: 20px;
+    font-size: 30px;
+    text-align: center;
+    font-size: 35;
+}
