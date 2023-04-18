@@ -44,12 +44,14 @@ body {
 
 h1 {
     font-size: 50;
+    text-shadow: 1px 1px 1px #ccc;
 }
 
 footer {
     font-size: 25;
     font-weight: bold;
     color: rgb(255, 255, 255);
+    text-shadow: 1px 1px 1px #ccc;
 }
   
 
@@ -196,4 +198,35 @@ footer {
     font-size: 30px;    
     text-align: left;
     font-size: 35;
+}
+
+/* boulder image gallery section */
+.boulder_container {
+    display: inline-block;
+    grid-template-columns: auto auto auto;
+    background-color: rgb(165, 200, 203);
+    border-radius: 8px;
+}
+
+.boulder_item {
+    padding: 20px;
+    font-size: 30px;
+    text-align: center;
+    font-size: 35;
+}
+
+.boulder_img {
+    height: auto;
+    width: 50%; 
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 8px;
+}
+
+.boulder_vid {
+    height: auto;
+    width: 50%; 
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 8px;
 }
